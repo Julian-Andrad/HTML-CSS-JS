@@ -1,0 +1,71 @@
+@media (max-width:$phone) {
+    .header {
+        &__article {overflow: hidden;
+        &__h1 {
+            font-size:40px ;
+            width: 95%;
+        }
+        &__h2 {
+            font-size: 16px;
+            width: 80%;
+        }
+        &__email {
+            &__form {
+                &__label {
+                    left: -10em;
+                }
+                &__input {
+                    width: 100%;
+                    padding: -3em;
+                    
+                    left: -8em
+                }
+                &__btn {
+                    width: 17em;
+                    left: -6.2em
+                }
+            }
+            &__terms {
+                width: 80%;
+            }
+        }
+    }
+    }
+    .section1 {
+        &__article {
+            &__partners {
+                &__item {
+                    width: 40%;
+                    margin-top: 1.5em;
+                    margin-bottom: 1.5em;
+                }
+
+            }
+        }
+    }
+    .section2 {
+        &__article {
+            &__email {
+                &__form {
+                    &__label {
+                        left: -1em;
+                    }
+                    &__input {
+                        max-width: 110%;
+                        left: -1.8em;
+                    }
+                &__btn {
+                    margin-top: 1em;
+                    width: 17em;
+                    left: -1.65em;
+                }
+            
+                
+                }
+                &__terms {
+                    left: -6%;
+                }
+            }
+        }
+    }
+}
