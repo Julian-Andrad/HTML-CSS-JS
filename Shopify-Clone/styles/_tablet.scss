@@ -1,0 +1,165 @@
+@media (max-width:$tablet) {
+    .header {
+        max-width: 480px;
+        &__article {
+            padding: 0 0 10em 0;
+            &__h1 {
+                font-size: 35px;
+                line-height: 48px;
+                width: 77%;
+            }
+            &__h2 {
+                font-size: 14px;
+                width: 77%;
+            }
+            &__email {
+                &__form {
+                    width: 100%;
+                    &__label {
+                        left: -11.3em;
+                    }
+                    &__input {
+                        padding-right: 0em;
+                        width: 6em;
+                        left: -8.8em;
+                    }
+                    &__btn {
+                        
+                        left: -8.8em ;
+                        top: 4em;
+                        width: 22.1em;
+                    }
+                }
+            }
+            &__terms {
+                margin: 12em 0 0 0;
+            }
+        }
+        &__big-img{ 
+            bottom: 6em;
+            width: 100%;
+        }
+    }
+    .section1 {
+        padding: 0;
+        width: 100%;
+        &__article {
+            padding: 0;
+            width: 100%;
+            &__advantages {
+                flex-direction: column;
+                
+                padding: 0;
+                margin: 5em 0 0 -2em;
+                width: 95%;
+                position: relative;
+                left: 6%;
+                
+                &__item {
+                    width: 100%;
+                    margin: 0 0 0 0;
+                    &__icon {
+                        left: 3%;
+                    }
+                    &__h2 {
+                        width: 100%;
+                    }
+                    
+                    
+                    
+                }
+            }
+            &__partners {
+                margin: 10em 0 0 0;
+                
+                max-width: 80%;
+                &__item {
+                    width: 27%;
+                    margin: 1.5em 2em .5em -1em;
+                    &__img {
+                        width: 100%;
+                        
+                    }
+                }
+            }
+            &__citation {
+                
+                &__h1 {
+                    width: 90%;
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+                &__h2 {
+                    width: 90%;
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+    .section2 {
+        &__upper-imgs {
+            &__stamp1 {
+                left: 85%;
+                bottom: -27%;
+            }
+        }
+        &__article {
+            &__email {
+                &__form {
+
+                    width: 100%;
+
+                    &__label {
+                        left: -3.3em;
+                    }
+                    &__input {
+                        padding-right: 0em;
+                        width: 25em;
+                        left: -3.3em;
+
+                    }
+                    &__btn {
+                        margin: 1em 0 0 0;
+                        left: -3.3em;
+                        top: 4em;
+                        width: 26.3em;
+                    }
+                }
+                &__terms {
+                    margin: 5em 0 0 0;
+                    font-size: 14px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .footer {
+        &__article {
+            &__faqs-container {
+                width: 72%;
+                &__question {
+                    &__btn {
+                        font-size: 16px;
+                    }
+                    &__plus {
+                        margin: 0 0 0 1em;
+                    }
+                }
+            }
+        }
+        &__terms-policy {
+            &__container {
+                
+                align-self: center;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 0 0 2em;
+                &__terms {
+                    
+                    text-align: right;
+                    align-self: center;
+                }
+            }
+        }
+    }
+}

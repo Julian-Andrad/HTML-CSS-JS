@@ -1,0 +1,117 @@
+
+@media (max-width:$laptop) {
+    .header {
+        &__big-img {
+            bottom: 11em;
+        }
+        &__article {
+            padding: 0 0 15em 0;
+            &__logo {
+                width: 125px;
+                margin-bottom: 1em;
+            }
+            &__h1 {
+                font-size: 40px;
+                line-height: 48px;
+                width: 75%;
+                letter-spacing: -.8px;
+            }
+            &__h2 {
+                font-size: 16px;
+                line-height: 21px;
+                width: 75%;
+            }
+            &__email {
+                &__form {
+
+                    &__label {
+                        left: -22.6em;
+                    }
+                    &__input {
+                        min-width: 21em;
+                        right: -2.5em;
+                    }
+                    &__btn {
+                        left : 8.5em
+                    }
+                }
+            }
+            &__terms {
+                width: 60%;
+            }
+
+        }
+    }
+    .section1 {
+        margin: -10em 0 0 0 ;
+        &__article {
+            background-image: radial-gradient(circle at 100% 50%, rgba(216,239,85,0.2) 300px, transparent 540px),radial-gradient(circle at 100% 50%, rgba(144,222,251,0.26), transparent 340px),radial-gradient(circle at 95% 1485px, rgba(216,239,85,0.27) 100px, transparent 420px);
+            &__partners {
+                flex-wrap: wrap;
+                flex-direction: row;
+                max-width: 66.5%;
+                height: auto;
+                &__item {
+                    min-width: 15%;
+                    margin: 2em 2em 2em 0;
+                }
+            }
+        }
+    }
+    .section2 {
+        padding: 0 0 8em 0;
+        &__upper-imgs {
+            &__stamp1{
+                transform: rotate(23deg);
+                left: 94%;
+                bottom:-25%;
+            }
+            &__stamp2 {
+                display: none;
+            }
+        }
+        &__article {
+            flex-direction: column;
+            &__text-container {
+                position: relative;
+                width: 100%;
+                left: -6.5%;
+                margin: 0 0 3em 0;
+                &__h2 {
+                    width: 100%;
+                    font-size: 30px;
+                }
+                &__h3 {
+                    width: 110%;
+                    
+                }
+
+            }
+            &__email {
+                &__form {
+                    width: 100%;
+
+                    &__label {
+                        left: -5.2em;
+                        
+                    }
+                    &__input {
+                        width: 87.5%;
+                        right: 11em;
+                    }
+                    &__btn {
+                        left: 80%;
+                    }
+                }
+                &__terms {
+                    width: 110%;
+                    position: relative;
+                    right: 3%;
+                }
+            }
+        }
+        &__lower-img {
+            display: none;
+        }
+    }
+}
